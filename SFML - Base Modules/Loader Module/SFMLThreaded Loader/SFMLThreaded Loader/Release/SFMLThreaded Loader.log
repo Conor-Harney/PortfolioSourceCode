@@ -1,0 +1,35 @@
+﻿Build started 24/09/2016 23:27:48.
+     1>Project "C:\Users\Conor\Desktop\in progress\SFMLThreaded Loader\SFMLThreaded Loader\SFMLThreaded Loader.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppClean.targets(75,5): warning : Access to the path 'C:\Users\Conor\Desktop\in progress\SFMLThreaded Loader\Release\SFMLThreaded Loader.exe' is denied.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Loader.cpp LoadingScreen.cpp MusicResource.cpp Resource.cpp RetrievingAndChangingFileAttributes.cpp SoundResource.cpp Source.cpp
+         Loader.cpp
+     1>Loader.cpp(48): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\direct.h(140) : see declaration of 'mkdir'
+     1>Loader.cpp(57): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\direct.h(140) : see declaration of 'mkdir'
+     1>Loader.cpp(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Loader.cpp(168): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\direct.h(140) : see declaration of 'mkdir'
+     1>Loader.cpp(177): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\direct.h(140) : see declaration of 'mkdir'
+         LoadingScreen.cpp
+         MusicResource.cpp
+         Resource.cpp
+         RetrievingAndChangingFileAttributes.cpp
+         SoundResource.cpp
+         Source.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Conor\Desktop\in progress\SFMLThreaded Loader\Release\SFMLThreaded Loader.exe" /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Conor\Desktop\in progress\SFMLThreaded Loader\Release\SFMLThreaded Loader.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Conor\Desktop\in progress\SFMLThreaded Loader\Release\SFMLThreaded Loader.lib" /MACHINE:X86 /SAFESEH Release\Loader.obj
+         Release\LoadingScreen.obj
+         Release\MusicResource.obj
+         Release\Resource.obj
+         Release\RetrievingAndChangingFileAttributes.obj
+         Release\SoundResource.obj
+         Release\Source.obj
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Users\Conor\Desktop\in progress\SFMLThreaded Loader\Release\SFMLThreaded Loader.exe'
+     1>Done Building Project "C:\Users\Conor\Desktop\in progress\SFMLThreaded Loader\SFMLThreaded Loader\SFMLThreaded Loader.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:29.33
